@@ -1,0 +1,201 @@
+.pallete-fonts {
+  background: #00c1b5;
+  background: #ff651a;
+  background: #ffbe00;
+  background: #1d3fbb;
+  background: #e30512;
+  color: #221e20;
+  font-family: "Overpass", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: "Roboto Mono", monospace;
+  color: #221e20;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* SURFACE CONTAINER */
+.backstage {
+  font-size: 32px;
+  font-weight: 700;
+  position: fixed;
+  top: 0.5em;
+  left: 0.5em;
+}
+
+.email {
+  font-size: 17px;
+  font-weight: 700;
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  cursor: pointer;
+  text-decoration: none;
+}
+.email:hover {
+  text-decoration: underline;
+}
+
+.textContainer {
+  width: 300px;
+  height: 100px;
+  position: fixed;
+  bottom: 11em;
+  left: 1.5em;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.published {
+  position: fixed;
+  bottom: 6em;
+  left: 2em;
+  font-size: 12px;
+}
+
+.underlineToNone {
+  text-decoration: underline;
+}
+
+.underlineToNone:hover {
+  text-decoration: none;
+}
+
+.privacy {
+  position: fixed;
+  bottom: 1em;
+  left: 1.25em;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+ul {
+  position: fixed;
+  right: 1em;
+  bottom: 0.5em;
+  list-style: none;
+}
+
+li {
+  margin-top: 0.5em;
+  text-decoration: none;
+}
+
+#buttonPage {
+  text-decoration: none;
+}
+#buttonPage:hover {
+  text-decoration: underline;
+}
+
+/* UNDER SURFACE CONTENT */
+.centerImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+}
+
+#issue5 {
+  background: #00c1b5;
+}
+#issue5:hover {
+  font-weight: 500;
+}
+#issue4 {
+  background: #ff651a;
+}
+#issue3 {
+  background: #ffbe00;
+}
+#issue2 {
+  background: #1d3fbb;
+}
+#issue1 {
+  background: #e30512;
+}
+
+img {
+  width: 420px;
+  height: auto;
+}
+
+#issue {
+  width: 500px;
+  height: 650px;
+}
+
+#imageContainer {
+  height: 655px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.underImage {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 5em;
+}
+
+.issue {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+  font-weight: 900;
+}
+
+.buyHere {
+  display: flex;
+  justify-content: center;
+  margin: 1.25em;
+  font-size: 15px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.buyHere:hover {
+  text-decoration: underline;
+}
+
+.selectedStores {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.gray {
+  display: flex;
+  margin-right: 0.5em;
+}
+
+.white {
+  color: #fff;
+  text-decoration: none;
+}
+
+.white:hover {
+  text-decoration: underline;
+}
